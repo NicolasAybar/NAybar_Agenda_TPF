@@ -1,0 +1,53 @@
+.contenedor_padre{
+    margin-top: 0px;   
+    background-color: aqua;
+    padding: 10px;
+    justify-content: center;/*eje de las x*/
+    align-items: center;/*eje de las y*/
+}
+.bg-curso{
+    background-color: #8540f5;
+}
+.Icono-input{
+    display: flex;
+    margin-left: 101px;
+    text-align: center;
+    padding-right: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+.separar{
+    margin-right: 5px;
+}
+.separar:hover{
+    color:rgb(223, 22, 176);
+    font-family: "Yellowtail";
+    box-shadow: 0 0 10px rgb(187, 248, 7);
+    border-radius: 40px;
+}
+.buscarText{
+    width: 80%;
+    margin: 3px;
+}
+.mas:hover{
+    color:rgb(223, 22, 176);
+    font-family: "Yellowtail";
+    box-shadow: 0 0 35px grey;
+}
+.botonera{
+  display: grid;
+  height: 80px;
+  padding: 5px;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 8px 5px;
+}
+.buscarCaracter{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    gap: 5px;
+}
